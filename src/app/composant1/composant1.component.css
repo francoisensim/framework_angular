@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("https://www.google.com/imgres?q=image%20hp&imgurl=https%3A%2F%2Fcdn.lesnumeriques.com%2Foptim%2Fproduct%2F69%2F69269%2F2ad01fef-victus-16-ryzen-7-copie__1200_630__overflow.jpeg&imgrefurl=https%3A%2F%2Fwww.lesnumeriques.com%2Fordinateur-portable%2Fhp-victus-15-p69269.html&docid=xfGhLdjAfnPDbM&tbnid=Izx2w7EC2Ew9sM&vet=12ahUKEwia_6aTrqaGAxXmT6QEHWlfDoQ4FBAzegQIchAA..i&w=1200&h=630&hcb=2&ved=2ahUKEwia_6aTrqaGAxXmT6QEHWlfDoQ4FBAzegQIchAA.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.form-container {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 1700px;
+    text-align: center;
+}
+.form-container input[type="text"],
+.form-container input[type="password"],
+.form-container textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.form-container .button-group {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.form-container button {
+    padding: 10px 5px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    flex: 1;
+    margin-right: 5px;
+}
+.form-container .btn-green {
+    background-color: #4CAF50;
+    color: white;
+}
+.form-container .btn-blue {background-color: #4CAF50;
+    color: white;}
+   
+.form-container .btn-yellow {background-color: #4CAF50;
+    color: white;}
+   
+.form-container .btn-red {background-color: #4CAF50;
+    color: white;
+  
+}
+.form-container .btn-submit {
+    background-color: black;
+    color: white;
+    width: 100%;
+    margin: 20px 0 0;
+}
+.form-container p {
+    margin: 20px 0 10px;
+    font-weight: bold;
+    color: green;
+}
