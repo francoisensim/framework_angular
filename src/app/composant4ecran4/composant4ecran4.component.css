@@ -1,0 +1,25 @@
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    }
+    .contact a {
+    color: #003366;
+    text-decoration: none;
+    margin-bottom: 10px;
+    }
+    .contact a:hover {
+    text-decoration: underline;
+    }
+    .contact .phone, .contact .email {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    }
+    .contact .email input {
+    margin-left: 10px;
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    }

@@ -1,0 +1,49 @@
+.usage-section {
+    margin: 20px;
+  }
+  
+  .usage-header {
+    text-align: center;
+    background-color: #00bfff;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .usage-header h2 {
+    margin: 0;
+    color: white;
+  }
+  
+  .usage-content {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    font-size: 14px;
+  }
+  
+  .usage-content p {
+    margin: 0;
+    color: #555;
+  }
+  
+  .usage-categories {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .category {
+    background-color: #99cc00;
+    padding: 20px;
+    border-radius: 10px;
+    width: 30%;
+    text-align: center;
+  }
+  
+  .category p {
+    margin: 0;
+    color: white;
+    font-weight: bold;
+  }
+  

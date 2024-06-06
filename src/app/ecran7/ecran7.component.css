@@ -1,0 +1,22 @@
+.ordinateur-info {
+    background-color: #e0f7fa;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  
+  .ordinateur-info h2 {
+    color: #00796b;
+    margin-bottom: 10px;
+  }
+  
+  .ordinateur-info ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .ordinateur-info li {
+    margin-bottom: 10px;
+  }
+  
